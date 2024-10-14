@@ -1,0 +1,45 @@
+ body{ 
+        background-color:rgb(55, 206, 100); }
+        h1{ text-align: center;}
+h1{ border: 3px solid wheat;}
+img{
+cursor: pointer;
+width: 300px;
+filter: grayscale(100%);
+}
+img:hover { 
+        filter: grayscale(0%);
+}
+table,th,td,tr {
+        border-collapse: collapse;
+        padding: 10px 10px;
+}
+tr:hover{ 
+        background: #9FE2BF;
+}
+tr:nth-child(even) {
+        background: rgb(240, 128, 128);
+        width: 80px;
+        height: 65px;
+}
+tr:nth-child(odd) {
+        background: #9FE2BF     ;
+        width: 80px;
+        height: 65px;
+}
+a:hover{
+        color:green
+}
+a:active{
+        color: aqua;
+}
+a:visited{
+        color: cadetblue;
+}
+ul.marker-roronoa li::marker{
+        color: whitesmoke;
+    }
+    
+    ol#marker-red li::marker{
+        color: pink
+    }
