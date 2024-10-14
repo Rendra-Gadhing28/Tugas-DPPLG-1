@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir - Rendra Gadhing P</title>
+    <link rel="stylesheet" href="Styless.css">
+</head>
+<body>
+ <H1 style="color: aqua ;">Formulir Pendaftaran</H1>
+    <form>
+        Nama <br>
+        <input type="text" placeholder="Username"> <br>
+        Kota Lahir <br>
+         <input type="text" placeholder="Kota Lahir" name="kota lahir" list="kota-lahir"> <br>
+        <datalist id="kota-lahir"> 
+         <option value="SEMARANG">SEMARANG</option>
+         <option value="UNGARAN">UNGARAN</option>
+         <option value="DEMAK">DEMAK</option>
+         <option value="JAKARTA">JAKARTA</option>
+        </datalist>
+        <br>
+        Tanggal Lahir <br>
+        <input type="date" name="ttl"> <br>
+        Gender <br>
+        <input type="radio" value="Pria" name="Gender">Pria
+        <input type="radio" value="Wanita" name="Gender">Wanita
+        <br>
+        Agama <br>
+        <select name="Agama">
+            <option value="ISLAM">ISLAM</option>
+            <option value="KATOLIK"> KATOLIK</option>
+            <option value="KRISTEN">KRISTEN</option>
+            <option value="HINDU"> HINDU </option>
+            <option value="BUDHA">BUDHA</option>
+            <option value="KONGHUCU">KONGHUCU</option>
+        </select>
+        <br>
+        Alamat<br>
+        <textarea name="Alamat" cols="30" rows="10"> </textarea>
+        <br>
+        Hobi <br>
+        <input type="checkbox" value="Fotografi" name="Hobi">Fotografi <br>
+        <input type="checkbox" value="Bermain voly" name="Hobi">Bermain voly <br>
+        <input type="checkbox" value="Bermain rebana" name="Hobi">Bermain rebana<br>
+        <input type="checkbox" value="Mendengar musik"name="Hobi">Mendengar musik<br>
+        <br>
+        <input type="reset" name="reset" value="Clear">
+        <input type="submit" name="submit" value="Send">
+    </form>
+    <a href="index.html">kembali</a>
+</body>
+</html>
