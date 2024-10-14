@@ -1,0 +1,10 @@
+body{
+    background:url(masha\ maria.jpg)
+    center no-repeat fixed,
+    url(../B/Rengoku.jpg)
+    no-repeat fixed;
+    background-size: 100px 100px cover; 
+}
+ul.marker_blue{ 
+color: aqua;
+}
